@@ -1,53 +1,49 @@
 # Python Snake Game
 
-A classic Snake game implementation using Pygame.
+Классическая реализация игры Snake с использованием Pygame.
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Клонируйте репозиторий:**
    ```bash
    git clone https://github.com/IvanovDIV/the_snake.git
    cd the_snake
    ```
 
-2. **Install dependencies:**
+2. **Установите зависимости:**
    ```bash
    pip install -r requirements.txt
    ```
 
-## Running the Game
+## Запустите игру
 
 ```bash
 python the_snake.py
 ```
 
-## How to Play
+## Как играть
 
-* **Control the snake:** Use the arrow keys (Up, Down, Left, Right) to change the snake's direction.
-* **Eat the apple:** Guide the snake to eat the red apple that appears randomly on the screen.
-* **Grow longer:** Each time the snake eats an apple, it grows longer.
-* **Avoid collisions:**  The game ends if the snake collides with itself or the boundaries of the playing field.
+* **Управление змейкой:** используйте клавиши со стрелками (Вверх, Вниз, Влево, Вправо), чтобы изменить направление змейки.
+* **Съешьте яблоко:** направьте змейку, чтобы она съела красное яблоко, которое случайным образом появляется на экране.
+* **Растите:** каждый раз, когда змейка съедает яблоко, она становится длиннее.
+* **Избегайте столкновений:** игра заканчивается, если змейка сталкивается сама с собой или с границами игрового поля.
 
-## Testing
+## Тесты
 
 ```bash
 pytest
 ```
 
-This will run the test suite included in the repository. 
+Запуск тестов, включенных в репозиторий.
 
-## Features
+## Особенности
 
-* Classic Snake gameplay.
-* Smooth movement and controls.
-* Game Over upon self-collision or boundary collision. 
-* Clean and well-commented code.
+* Классический игровой процесс Snake.
+* Плавное движение и управление.
+* Конец игры при столкновении с собой или границами.
+* Чистый и хорошо прокомментированный код.
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
+## Лицензия
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
